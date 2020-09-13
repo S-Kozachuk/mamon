@@ -1,5 +1,5 @@
 body {
-
+    font-family: 'Ubuntu', sans-serif;
 }
 .header {
     width: 100%;
@@ -7,19 +7,34 @@ body {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    font-weight: 700;
 }
 .nav {
     list-style-type: none;
     display: flex;  
     justify-content: flex-start;
+    align-items: center;
     font-size: 14px;
 }
 .nav>li {
     margin-left: 15px;
+}
+.nav>li>a {
+    text-decoration: none;
+    color: #202020;
+}
+.nav_btn {
+    background-color: #5528FF;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 700;
 }
 .logo {
     display: flex;
@@ -35,5 +50,5 @@ body {
 }
 .logo_text {
     font-size: 24px;
-    font-color: #202020;
+    color: #202020;
 }
