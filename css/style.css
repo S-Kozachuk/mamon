@@ -123,6 +123,10 @@ body {
     align-items: center;
 }
 
+.services__img {
+    flex-basis: 100px;
+}
+
 .services h3 {
     font-size: 28px;
     font-weight: 400;
