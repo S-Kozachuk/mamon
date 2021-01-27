@@ -1,6 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
 .header {
     width: 100%;
     max-width: 1180px;
@@ -14,6 +15,7 @@ body {
     box-sizing: border-box;
     font-weight: 700;
 }
+
 .wrap {
     width: 100%;
     max-width: 1180px;
@@ -21,6 +23,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .nav {
     list-style-type: none;
     display: flex;  
@@ -28,13 +31,16 @@ body {
     align-items: center;
     font-size: 14px;
 }
+
 .nav>li {
     margin-left: 15px;
 }
+
 .nav>li>a {
     text-decoration: none;
     color: #202020;
 }
+
 .nav_btn {
     background-color: #5528FF;
     color: white;
@@ -43,11 +49,13 @@ body {
     border: none;
     font-weight: 700;
 }
+
 .logo {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
+
 .logo_img {
     display: block;
     width: 58px;
@@ -55,18 +63,22 @@ body {
     background-image: url(../img/logo.svg);
     margin-right: 20px;
 }
+
 .logo_text {
     font-size: 24px;
     color: #202020;
 }
+
 .page {
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
 }
+
 .page-top{
     border-top: 1px solid #C2C2C2; 
 }
+
 .page h2 {
     position: absolute;
     top: -25px;
