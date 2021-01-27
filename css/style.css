@@ -114,5 +114,16 @@ body {
 
 .services {
     display: grid;
-    grid-template: 50% 50% / 50% 50%; 
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #B2B2B2;
 }
