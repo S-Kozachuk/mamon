@@ -16,12 +16,23 @@ body {
     font-weight: 700;
 }
 
-.wrap {
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(../img/logo.svg);
+    margin-right: 20px;
+}
+
+.logo_text {
+    font-size: 24px;
+    color: #202020;
 }
 
 .nav {
@@ -50,23 +61,22 @@ body {
     font-weight: 700;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
+.wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.logo_img {
-    display: block;
-    width: 58px;
-    height: 58px;
-    background-image: url(../img/logo.svg);
-    margin-right: 20px;
-}
-
-.logo_text {
+.button {
+    background-color: #5528FF;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
     font-size: 24px;
-    color: #202020;
+    font-weight: 400;
 }
 
 .page {
