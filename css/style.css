@@ -69,6 +69,19 @@ body {
     padding-right: 15px;
 }
 
+.title-main {
+    font-size: 56px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.text-main {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #4F4F4F;
+}
+
 .button {
     background-color: #5528FF;
     color: white;
