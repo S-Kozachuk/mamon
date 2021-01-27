@@ -111,3 +111,8 @@ body {
     padding: 5px 15px;
     color: #C2C2C2;
 }
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%; 
+}
