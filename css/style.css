@@ -1,11 +1,11 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .header {
     width: 100%;
     max-width: 1180px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 30px;
@@ -37,23 +37,23 @@ body {
 
 .nav {
     list-style-type: none;
-    display: flex;  
+    display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 14px;
 }
 
-.nav>li {
+.nav > li {
     margin-left: 15px;
 }
 
-.nav>li>a {
+.nav > li > a {
     text-decoration: none;
     color: #202020;
 }
 
 .nav_btn {
-    background-color: #5528FF;
+    background-color: #5528ff;
     color: white;
     border-radius: 5px;
     padding: 10px 15px;
@@ -79,11 +79,11 @@ body {
     font-size: 32px;
     font-weight: 400;
     line-height: 1.6;
-    color: #4F4F4F;
+    color: #4f4f4f;
 }
 
 .button {
-    background-color: #5528FF;
+    background-color: #5528ff;
     color: white;
     border-radius: 10px;
     padding: 10px 45px;
@@ -98,8 +98,8 @@ body {
     position: relative;
 }
 
-.page-top{
-    border-top: 1px solid #C2C2C2; 
+.page-top {
+    border-top: 1px solid #c2c2c2;
 }
 
 .page h2 {
@@ -109,7 +109,7 @@ body {
     font-weight: 300;
     background-color: #fff;
     padding: 5px 15px;
-    color: #C2C2C2;
+    color: #c2c2c2;
 }
 
 .services {
@@ -127,6 +127,10 @@ body {
     flex-basis: 100px;
 }
 
+.services__text {
+    flex-basis: calc(100% - 100px);
+}
+
 .services h3 {
     font-size: 28px;
     font-weight: 400;
@@ -135,5 +139,5 @@ body {
 .services p {
     font-size: 14px;
     font-weight: 400;
-    color: #B2B2B2;
+    color: #b2b2b2;
 }
