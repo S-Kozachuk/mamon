@@ -124,11 +124,12 @@ body {
 }
 
 .services__img {
-    flex-basis: 100px;
+    flex-basis: 120px;
+    text-align: center;
 }
 
 .services__text {
-    flex-basis: calc(100% - 100px);
+    flex-basis: calc(100% - 120px);
 }
 
 .services h3 {
