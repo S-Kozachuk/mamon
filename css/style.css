@@ -120,7 +120,8 @@ body {
 
 .services {
     display: grid;
-    grid-template: 50% 50% / 50% 50%;
+    grid-template: repeat(2, 1fr) / 50% 50%;
+    grid-row-gap: 38px;
 }
 
 .services-item {
@@ -135,7 +136,7 @@ body {
 }
 
 .services__text {
-    flex-basis: calc(100% - 120px);
+    flex-basis: calc(80% - 165px);
 }
 
 .services h3 {
@@ -176,6 +177,17 @@ body {
     flex-basis: calc(100% - 100px);
 }
 
+.team-item h3 {
+    margin-bottom: 28px;
+    font-size: 28px;
+    color: #202020;
+}
+
+.tean-item p {
+    font-size: 14px;
+    color: #B2B2B2;
+}
+
 .footer {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -195,7 +207,7 @@ body {
 }
 
 .social>li {
-    margin-left: 15px;
+    margin-left: 43px;
 }
 
 .social>li>a {
