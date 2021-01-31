@@ -175,3 +175,25 @@ body {
     padding-bottom: 20px;
     background-color: #F7F7F7;
 }
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.social>li {
+    margin-left: 15px;
+}
+
+.social>li>a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
+}
