@@ -142,3 +142,7 @@ body {
     font-weight: 400;
     color: #b2b2b2;
 }
+
+.clients {
+    display: grid;
+}
