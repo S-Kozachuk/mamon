@@ -145,4 +145,6 @@ body {
 
 .clients {
     display: grid;
+    grid-template: 120px 120px/ repeat(4, 25%);
+    text-align: center;
 }
