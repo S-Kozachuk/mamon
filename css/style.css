@@ -145,7 +145,8 @@ body {
 
 .clients {
     display: grid;
-    grid-template: 120px 120px/repeat(4, 25%);
+    grid-template: repeat(2, 1fr)/repeat(4, 25%);
+    grid-row-gap: 40px;
     text-align: center;
 }
 
