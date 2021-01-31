@@ -152,4 +152,19 @@ body {
 .team {
     display: grid;
     grid-template: repeat(3, 1fr)/repeat(3, 33%);
+    grid-row-gap: 40px;
+}
+
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.team-item img {
+    margin-right: 30px;
+}
+
+.team-item>div {
+    flex-basis: calc(100% - 100px);
 }
