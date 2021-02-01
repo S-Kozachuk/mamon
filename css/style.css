@@ -62,6 +62,12 @@ body {
     font-weight: 700;
 }
 
+.toggle-menu {
+    border: 2px solid red;
+    width: 50px;
+    height: 50px;
+}
+
 .wrap {
     width: 100%;
     max-width: 1212px;
