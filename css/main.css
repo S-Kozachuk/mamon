@@ -162,12 +162,12 @@ body {
   width: 50px;
   height: 50px;
 }
-/*.services {
-    display: grid;
-    grid-template: repeat(2, 1fr) / 50% 50%;
-    grid-row-gap: 38px;
+.services {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 38px;
 }
-*/
 .services-item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -206,19 +206,19 @@ body {
   font-weight: 400;
   color: #b2b2b2;
 }
-/*.clients {
-    display: grid;
-    grid-template: repeat(2, 1fr)/repeat(4, 25%);
-    grid-row-gap: 40px;
-    text-align: center;
+.clients {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 25%);
+  grid-row-gap: 40px;
+  text-align: center;
 }
-*/
-/*.team {
-    display: grid;
-    grid-template: repeat(3, 1fr)/repeat(3, 33%);
-    grid-row-gap: 40px;
+.team {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 33%);
+  grid-row-gap: 40px;
 }
-*/
 .team-item {
   display: -webkit-box;
   display: -webkit-flex;
