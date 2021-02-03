@@ -32,12 +32,21 @@
 }
 
 .nav {
-    margin-top: 23px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 14px;
-    list-style-type: none;
+    display: none;
+
+    @media (min-width: 768px) {   
+     
+    }
+
+    @media (min-width: 1200px) {
+        margin-top: 23px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 14px;
+        list-style-type: none;
+    }
+
 }
 
 .nav > li {
@@ -69,6 +78,5 @@
         height: 10px;
         background-color: yellowgreen;    
     }
-    
     
 }
