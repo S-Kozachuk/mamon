@@ -74,9 +74,30 @@
     height: 50px;
 
     span {
+        position: relative;
+        margin: auto;
         width: 100%;
-        height: 10px;
-        background-color: yellowgreen;    
+        height: 7px;
+        background-color: yellowgreen;
+
+        &:before, &:after {
+            position: absolute;
+            left: 0;
+            content: '';
+            width: 100%;
+            height: 7px;
+            background-color: yellowgreen;
+        }
+
+        &:before {
+            top: -20px;
+        }
+
+        &::after {
+            bottom: -20px;
+        }
+
     }
     
 }
+
