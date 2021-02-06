@@ -4869,6 +4869,11 @@ body {
     height: 50px;
   }
 }
+@media (min-width: 1200px) {
+  .toggle-menu {
+    display: none;
+  }
+}
 .toggle-menu.active span {
   background-color: transparent;
 }
