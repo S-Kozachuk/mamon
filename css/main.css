@@ -171,15 +171,20 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50px;
+  width: 45px;
   height: 50px;
+  cursor: pointer;
 }
 .toggle-menu span {
   position: relative;
   margin: auto;
   width: 100%;
-  height: 7px;
-  background-color: yellowgreen;
+  height: 5px;
+  background-color: #5528FF;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
 }
 .toggle-menu span:before,
 .toggle-menu span:after {
@@ -187,14 +192,24 @@ body {
   left: 0;
   content: '';
   width: 100%;
-  height: 7px;
-  background-color: yellowgreen;
+  height: 5px;
+  background-color: #5528FF;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
 }
 .toggle-menu span:before {
-  top: -20px;
+  top: -15px;
 }
 .toggle-menu span::after {
-  bottom: -20px;
+  bottom: -15px;
+}
+@media (min-width: 768px) {
+  .toggle-menu {
+    width: 50px;
+    height: 50px;
+  }
 }
 .toggle-menu.active span {
   background-color: transparent;
