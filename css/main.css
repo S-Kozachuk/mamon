@@ -4672,6 +4672,12 @@ body {
 .none {
   display: none;
 }
+.fix-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .header {
   width: 100%;
   max-width: 1212px;
@@ -4720,7 +4726,7 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
