@@ -4748,6 +4748,7 @@ body {
 .nav > li {
   margin-left: 20px;
   padding: 10px 0;
+  font-size: 17px;
 }
 .nav > li:first-child {
   padding-top: 18px;
@@ -4759,6 +4760,7 @@ body {
   .nav > li {
     margin-left: 38px;
     padding: 5px 0;
+    font-size: unset;
   }
   .nav > li:first-child {
     display: none;
