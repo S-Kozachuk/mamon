@@ -26,11 +26,19 @@
 }
 
 .logo_img {
-    margin-right: 24px;
+    margin-right: 14px;
     display: block;
-    width: 58px;
-    height: 58px;
+    width: 45px;
+    height: 45px;
     background-image: url(../img/logo.svg);
+    background-size: cover;
+
+    @media (min-width: 1200px) {
+        margin-right: 24px;
+        width: 58px;
+        height: 58px;
+    }
+
 }
 
 .logo_text {
@@ -69,13 +77,30 @@
 }
 
 .nav > li {
-    margin-left: 38px;
-    padding: 5px 0;
+    margin-left: 20px;
+    padding: 10px 0;
+
+    &:first-child {
+        padding-top: 18px;
+    }
+
+    &:nth-of-type(2) {
+        padding-top: 25px;
+    }
 
     @media (min-width: 1200px) {
+        margin-left: 38px;
+        padding: 5px 0;
+
         &:first-child {
             display: none;
+            padding-top: unset;
         }
+
+        &:nth-of-type(2) {
+            padding-top: unset;
+        }
+
     }  
 
 }

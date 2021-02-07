@@ -4698,11 +4698,19 @@ body {
   text-decoration: none;
 }
 .logo_img {
-  margin-right: 24px;
+  margin-right: 14px;
   display: block;
-  width: 58px;
-  height: 58px;
+  width: 45px;
+  height: 45px;
   background-image: url(../img/logo.svg);
+  background-size: cover;
+}
+@media (min-width: 1200px) {
+  .logo_img {
+    margin-right: 24px;
+    width: 58px;
+    height: 58px;
+  }
 }
 .logo_text {
   font-size: 24px;
@@ -4738,12 +4746,26 @@ body {
   }
 }
 .nav > li {
-  margin-left: 38px;
-  padding: 5px 0;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+.nav > li:first-child {
+  padding-top: 18px;
+}
+.nav > li:nth-of-type(2) {
+  padding-top: 25px;
 }
 @media (min-width: 1200px) {
+  .nav > li {
+    margin-left: 38px;
+    padding: 5px 0;
+  }
   .nav > li:first-child {
     display: none;
+    padding-top: unset;
+  }
+  .nav > li:nth-of-type(2) {
+    padding-top: unset;
   }
 }
 .nav > li > a {
