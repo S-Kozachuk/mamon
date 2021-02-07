@@ -4748,6 +4748,7 @@ body {
 }
 .nav.active {
   transform: translateX(0%);
+  transition: .5s;
 }
 .toggle-menu {
   display: flex;

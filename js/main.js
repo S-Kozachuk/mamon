@@ -19,6 +19,22 @@ $(document).ready(function () {
         menuToggle.classList.remove('active');
         overlayEl.classList.remove('active');
         bodyEl.classList.remove('noscroll');
-    })
+    });
+    
+    //Closing Mobile menu if screen resizing
+    window.addEventListener('resize', function() {
+        mobMenu.classList.remove('active');
+        menuToggle.classList.remove('active');
+        overlayEl.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+    });
+    
+    //Closing Mobile menu if click to overlay
+    overlayEl.addEventListener('click', function(){
+        this.classList.remove('active');
+        mobMenu.classList.remove('active');
+        menuToggle.classList.remove('active');
+        bodyEl.classList.remove('noscroll');
+    });
 
 })
