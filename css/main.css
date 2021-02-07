@@ -4734,6 +4734,11 @@ body {
   margin-left: 38px;
   padding: 5px 0;
 }
+@media (min-width: 1200px) {
+  .nav > li:first-child {
+    display: none;
+  }
+}
 .nav > li > a {
   text-decoration: none;
   color: #202020;
