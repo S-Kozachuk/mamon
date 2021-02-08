@@ -4594,6 +4594,7 @@ body {
   overflow: hidden;
 }
 #overlay {
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -4605,6 +4606,7 @@ body {
   transition: .5s;
 }
 #overlay.active {
+  display: block;
   opacity: 0.5;
 }
 .wrap {
@@ -4677,6 +4679,8 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #fff;
+  z-index: 1;
 }
 .header {
   width: 100%;
@@ -4696,6 +4700,7 @@ body {
     padding-left: 2px;
     padding-right: 29px;
     padding-top: 54px;
+    padding-bottom: 30px;
   }
 }
 .logo {
