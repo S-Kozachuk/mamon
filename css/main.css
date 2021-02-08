@@ -4862,7 +4862,12 @@ body {
   background-color: red;
 }
 .performance {
-  margin-top: 100px;
+  margin-top: 20px;
+}
+@media (min-width: 1200px) {
+  .performance {
+    margin-top: 100px;
+  }
 }
 .services {
   display: grid;
