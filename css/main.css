@@ -4610,18 +4610,27 @@ body {
   opacity: 0.5;
 }
 .wrap {
-  width: 100%;
   max-width: 1212px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (min-width: 1200px) {
+  .wrap {
+    width: 100%;
+  }
+}
 .title-main {
-  margin-bottom: 30px;
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: 0.8px;
   color: #202020;
+}
+@media (min-width: 1200px) {
+  .title-main {
+    margin-bottom: 30px;
+    font-size: 56px;
+  }
 }
 .text-main {
   margin-top: 0;
