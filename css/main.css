@@ -4653,9 +4653,14 @@ body {
   font-weight: 400;
 }
 .page {
-  padding-top: 77px;
-  padding-bottom: 107px;
-  position: relative;
+  padding-top: 65px;
+}
+@media (min-width: 1200px) {
+  .page {
+    padding-top: 77px;
+    padding-bottom: 107px;
+    position: relative;
+  }
 }
 .page-top {
   border-top: 1px solid #c2c2c2;
