@@ -37,4 +37,15 @@ $(document).ready(function () {
         bodyEl.classList.remove('noscroll');
     });
 
+    // Fixed header menu
+    const fixMenu = document.querySelector('.fix-menu');
+    window.addEventListener('scroll', function(){
+        if(this.pageYOffset > 10){
+            fixMenu.classList.add('active');
+        }
+        else{
+            fixMenu.classList.remove('active');    
+        }
+    });
+
 })
