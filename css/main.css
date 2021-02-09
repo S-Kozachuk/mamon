@@ -4625,11 +4625,13 @@ body {
   font-weight: 700;
   letter-spacing: 0.8px;
   color: #202020;
+  text-align: center;
 }
 @media (min-width: 1200px) {
   .title-main {
     margin-bottom: 30px;
     font-size: 56px;
+    text-align: unset;
   }
 }
 .text-main {
