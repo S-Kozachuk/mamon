@@ -4635,7 +4635,7 @@ body {
   }
 }
 .text-main {
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 30px;
   max-width: 746px;
   font-size: 23px;
@@ -4645,8 +4645,9 @@ body {
 }
 @media (min-width: 1200px) {
   .text-main {
-    font-size: 32px;
+    margin-top: 0px;
     margin-bottom: 71px;
+    font-size: 32px;
   }
 }
 .button {
@@ -4889,7 +4890,7 @@ body {
   background-color: red;
 }
 .performance {
-  margin-top: 20px;
+  margin-top: 33px;
 }
 @media (min-width: 1200px) {
   .performance {
