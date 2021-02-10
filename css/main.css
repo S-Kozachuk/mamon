@@ -4620,29 +4620,6 @@ body {
     width: 100%;
   }
 }
-.title-main {
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  color: #202020;
-  text-align: center;
-}
-@media (min-width: 425px) {
-  .title-main {
-    font-size: 33px;
-  }
-}
-@media (min-width: 768px) {
-  .title-main {
-    text-align: unset;
-  }
-}
-@media (min-width: 1200px) {
-  .title-main {
-    margin-bottom: 30px;
-    font-size: 56px;
-  }
-}
 .text-main {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -4911,6 +4888,29 @@ body {
 @media (min-width: 1200px) {
   .performance {
     margin-top: 100px;
+  }
+}
+.title-main {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #202020;
+  text-align: center;
+}
+@media (min-width: 425px) {
+  .title-main {
+    font-size: 33px;
+  }
+}
+@media (min-width: 768px) {
+  .title-main {
+    text-align: unset;
+  }
+}
+@media (min-width: 1200px) {
+  .title-main {
+    margin-bottom: 30px;
+    font-size: 56px;
   }
 }
 .services {
