@@ -4638,10 +4638,15 @@ body {
   margin-top: 0;
   margin-bottom: 71px;
   max-width: 746px;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 1.6;
   color: #4f4f4f;
+}
+@media (min-width: 1200px) {
+  .text-main {
+    font-size: 32px;
+  }
 }
 .button {
   background-color: #5528ff;
