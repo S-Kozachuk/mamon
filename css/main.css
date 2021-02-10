@@ -4650,13 +4650,22 @@ body {
   }
 }
 .button {
+  display: block;
+  margin: 0 auto;
   background-color: #5528ff;
   color: white;
   border-radius: 10px;
-  padding: 17px 57px;
+  padding: 13px 85px;
   border: none;
   font-size: 24px;
   font-weight: 400;
+}
+@media (min-width: 1200px) {
+  .button {
+    display: unset;
+    padding: 17px 57px;
+    cursor: pointer;
+  }
 }
 .page {
   padding-top: 65px;
