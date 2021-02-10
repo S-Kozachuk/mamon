@@ -4668,7 +4668,7 @@ p {
 }
 .text-main {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 23px;
   font-weight: 400;
   line-height: 1.6;
@@ -4700,9 +4700,14 @@ p {
   font-size: 24px;
   font-weight: 400;
 }
-@media (min-width: 1200px) {
+@media (min-width: 425px) {
   .button {
     display: unset;
+    padding: 8px 38px;
+  }
+}
+@media (min-width: 1200px) {
+  .button {
     padding: 17px 57px;
     cursor: pointer;
   }
