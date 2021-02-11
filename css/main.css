@@ -4743,12 +4743,18 @@ p {
 }
 .page h2 {
   position: absolute;
-  top: -25px;
-  font-size: 14px;
+  top: -13px;
+  font-size: 12px;
   font-weight: 300;
   background-color: #fff;
   padding: 5px 15px;
   color: #c2c2c2;
+}
+@media (min-width: 1200px) {
+  .page h2 {
+    top: -15px;
+    font-size: 14px;
+  }
 }
 .social {
   display: flex;
