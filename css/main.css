@@ -4990,8 +4990,16 @@ p {
     flex-basis: 120px;
   }
 }
-.services__text {
-  flex-basis: calc(-85%);
+@media (min-width: 768px) {
+  .services__text {
+    max-width: 353px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .services__text {
+    flex-basis: calc(-85%);
+  }
 }
 .services h3 {
   margin-bottom: 13px;

@@ -32,7 +32,15 @@
 }
 
 .services__text {
-    flex-basis: calc(80% - 165px);
+
+    @media (min-width: 768px) {
+        max-width: 353px;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 1200px) {
+        flex-basis: calc(80% - 165px);
+    }
 }
 
 .services h3 {
