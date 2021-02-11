@@ -4994,8 +4994,18 @@ p {
   flex-basis: calc(-85%);
 }
 .services h3 {
-  font-size: 28px;
-  font-weight: 400;
+  margin-bottom: 13px;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .services h3 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: unset;
+  }
 }
 .services p {
   font-size: 14px;
