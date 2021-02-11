@@ -4797,7 +4797,7 @@ p {
   background-image: url(../img/logo.svg);
   background-size: cover;
 }
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   .logo_img {
     margin-right: 24px;
     width: 58px;
