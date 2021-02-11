@@ -11,14 +11,24 @@
 }
 
 .services-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+
+    @media (min-width: 1200px) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
 }
 
 .services__img {
-    flex-basis: 120px;
+    margin-bottom: 20px;
     text-align: center;
+
+    @media (min-width: 1200px) {
+        flex-basis: 120px;
+        
+    }
+
 }
 
 .services__text {
