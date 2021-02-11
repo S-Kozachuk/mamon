@@ -4632,13 +4632,18 @@ p {
   opacity: 0.5;
 }
 .wrap {
-  max-width: 1212px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (min-width: 980px) {
+  .wrap {
+    max-width: 800px;
+  }
+}
 @media (min-width: 1200px) {
   .wrap {
+    max-width: 1212px;
     width: 100%;
   }
 }

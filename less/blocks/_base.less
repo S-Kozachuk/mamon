@@ -50,12 +50,16 @@ p {
 }
 
 .wrap {
-    max-width: 1212px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 
+    @media (min-width: 980px) {
+        max-width: 800px;
+    }
+
     @media (min-width: 1200px) {
+        max-width: 1212px;
         width: 100%;
     }
 
