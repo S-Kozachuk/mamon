@@ -5010,6 +5010,7 @@ p {
 .services p {
   font-size: 14px;
   font-weight: 400;
+  line-height: 1.4;
   color: #b2b2b2;
 }
 .clients {
