@@ -5023,10 +5023,15 @@ p {
 }
 .clients {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(1, 100%);
   grid-row-gap: 40px;
   text-align: center;
+}
+@media (min-width: 1200px) {
+  .clients {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 25%);
+  }
 }
 .team {
   display: grid;
