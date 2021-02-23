@@ -4983,7 +4983,7 @@ p {
 @media (min-width: 1200px) {
   .services-item {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
   }
 }
@@ -5004,7 +5004,7 @@ p {
 }
 @media (min-width: 1200px) {
   .services__text {
-    flex-basis: calc(-85%);
+    margin-left: 25px;
   }
 }
 .services h3 {
