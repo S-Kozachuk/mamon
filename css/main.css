@@ -5004,7 +5004,7 @@ p {
 }
 @media (min-width: 1200px) {
   .services__text {
-    margin-left: 25px;
+    margin: 0 0 0 25px;
   }
 }
 .services h3 {
