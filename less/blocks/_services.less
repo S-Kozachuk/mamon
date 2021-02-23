@@ -5,8 +5,8 @@
     grid-row-gap: 38px;
 
     @media (min-width: 768px) {
-        grid-template-rows: 50%;
-        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(auto, 400px));
     }
 
     @media (min-width: 1200px) {
