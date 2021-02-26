@@ -5044,11 +5044,11 @@ p {
     grid-template-columns: repeat(4, 25%);
   }
 }
-.section-clients__carousel {
+.clients__carousel {
   display: block;
 }
 @media (min-width: 768px) {
-  .section-clients__carousel {
+  .clients__carousel {
     display: none;
   }
 }
