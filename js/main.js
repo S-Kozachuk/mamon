@@ -50,7 +50,8 @@ $(document).ready(function () {
 
     // Call the Owl Carousel plugin
         $(".owl-carousel").owlCarousel({
-            items: 1
+            items: 1,
+            nav: true
         });
 
 })
