@@ -5046,12 +5046,20 @@ p {
 }
 .clients__carousel {
   margin: 0 auto;
-  width: 180px;
+  width: 300px;
 }
 @media (min-width: 768px) {
   .clients__carousel {
     display: none;
   }
+}
+.testimonial__clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clients__carousel .owl-item img {
+  width: unset;
 }
 .team {
   display: grid;

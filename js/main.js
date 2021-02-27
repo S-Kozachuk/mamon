@@ -51,7 +51,9 @@ $(document).ready(function () {
     // Call the Owl Carousel plugin
         $(".owl-carousel").owlCarousel({
             items: 1,
-            nav: true
+            nav: true,
+            dots: false,
+            loop: true
         });
 
 })
