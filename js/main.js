@@ -54,6 +54,7 @@ $(document).ready(function () {
             nav: true,
             dots: false,
             loop: true,
+            navSpeed: 1000,
         });
 
 })
