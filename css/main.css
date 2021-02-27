@@ -5058,7 +5058,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.clients__carousel .owl-item img {
+.our-clients .clients__carousel .owl-item img {
   width: unset;
 }
 .team {

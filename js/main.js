@@ -53,7 +53,7 @@ $(document).ready(function () {
             items: 1,
             nav: true,
             dots: false,
-            loop: true
+            loop: true,
         });
 
 })
