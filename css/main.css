@@ -5057,6 +5057,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 60px;
 }
 .our-clients .clients__carousel .owl-item img {
   width: unset;
