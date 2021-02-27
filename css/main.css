@@ -5065,19 +5065,31 @@ p {
   display: none;
 }
 .owl-carousel .owl-nav button.owl-next span {
-  display: block;
+  display: none;
 }
 .clients__carousel .owl-carousel .owl-nav button.owl-prev {
-  width: 52px;
-  height: 52px;
+  width: 45px;
+  height: 45px;
   background-image: url(../img/arrow-left.svg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   position: absolute;
-  bottom: 3px;
-  margin-left: -20px;
-  left: 30%;
+  bottom: 52px;
+  left: 13%;
   transform: translate(-100%, 100%);
+  outline: none;
+  transition: 0.5s ease;
+}
+.clients__carousel .owl-carousel .owl-nav button.owl-next {
+  width: 45px;
+  height: 45px;
+  background-image: url(../img/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 52px;
+  left: 78%;
+  transform: translateY(100%);
   outline: none;
   transition: 0.5s ease;
 }
