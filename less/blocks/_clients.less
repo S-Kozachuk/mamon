@@ -33,3 +33,26 @@
 .our-clients .clients__carousel .owl-item img {
     width: unset;
 }
+
+.owl-carousel .owl-nav button.owl-prev span {
+    display: none;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    display: block;
+}
+
+.clients__carousel .owl-carousel .owl-nav button.owl-prev {
+    width: 52px;
+    height: 52px;
+    background-image: url(../img/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    bottom: 3px;
+    margin-left: -20px;
+    left: 30%;
+    transform: translate(-100%, 100%);
+    outline: none;
+    transition: 0.5s ease;
+}
