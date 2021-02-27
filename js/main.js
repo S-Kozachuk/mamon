@@ -48,4 +48,7 @@ $(document).ready(function () {
         }
     });
 
+    // Call the Owl Carousel plugin
+        $(".owl-carousel").owlCarousel();
+
 })
