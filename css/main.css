@@ -5104,6 +5104,11 @@ p {
     left: 90%;
   }
 }
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 @media (min-width: 1200px) {
   .team {
     display: grid;
