@@ -5190,6 +5190,9 @@ p {
     left: 85%;
   }
 }
+.wrap .team .owl-carousel {
+  z-index: 0;
+}
 @media (min-width: 768px) {
   .wrap .team .owl-carousel {
     display: grid;
