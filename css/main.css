@@ -5232,6 +5232,9 @@ p {
     margin-right: 17px;
   }
 }
+.owl-carousel .owl-dots button.owl-dot.active {
+  background: #5528ff;
+}
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;

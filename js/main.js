@@ -54,7 +54,7 @@ $(document).ready(function () {
             nav: true,
             dots: false,
             loop: true,
-            navSpeed: 1000,
+            navSpeed: 1000
         });
 
     // Call the Owl Carousel plugin, 2-nd slider    
@@ -78,7 +78,7 @@ $(document).ready(function () {
                 nav: false,
                 dots: true,
                 loop: false,
-                navSpeed: 1000,
+                navSpeed: 2000
             });
         }
 
