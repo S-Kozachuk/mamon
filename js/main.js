@@ -48,13 +48,22 @@ $(document).ready(function () {
         }
     });
 
-    // Call the Owl Carousel plugin
-        $(".owl-carousel").owlCarousel({
+    // Call the Owl Carousel plugin, 1-st slider
+        $(".slider-1").owlCarousel({
             items: 1,
             nav: true,
             dots: false,
             loop: true,
             navSpeed: 1000,
+        });
+
+    // Call the Owl Carousel plugin, 2-nd slider    
+        $(".slider-2").owlCarousel({
+            items: 1,
+            nav: true,
+            dots: false,
+            loop: false,
+            navSpeed: 600,
         });
 
 })
