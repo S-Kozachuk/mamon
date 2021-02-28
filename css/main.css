@@ -5204,10 +5204,15 @@ p {
 .team .owl-carousel .owl-dots {
   margin: 0 auto;
   margin-top: 20px;
-  width: 320px;
+  width: 290px;
+}
+@media (min-width: 375px) {
+  .team .owl-carousel .owl-dots {
+    width: 320px;
+  }
 }
 .owl-carousel .owl-dots button.owl-dot {
-  margin-right: 17px;
+  margin-right: 13px;
   background: #fff;
   border: 3px solid #5528ff;
   width: 20px;
@@ -5216,6 +5221,11 @@ p {
 }
 .owl-carousel .owl-dots button.owl-dot:last-child {
   margin-right: 0;
+}
+@media (min-width: 375px) {
+  .owl-carousel .owl-dots button.owl-dot {
+    margin-right: 17px;
+  }
 }
 .footer {
   padding-top: 20px;
