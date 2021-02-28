@@ -5222,6 +5222,7 @@ p {
   width: 20px;
   height: 20px;
   border-radius: 50px;
+  outline: none;
 }
 .owl-carousel .owl-dots button.owl-dot:last-child {
   margin-right: 0;
