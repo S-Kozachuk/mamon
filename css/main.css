@@ -5149,13 +5149,8 @@ p {
   }
 }
 .team-item p {
-  font-size: 16px;
+  font-size: 14px;
   color: #B2B2B2;
-}
-@media (min-width: 1200px) {
-  .team-item p {
-    font-size: 14px;
-  }
 }
 .team .owl-carousel .owl-nav button.owl-prev {
   width: 45px;
