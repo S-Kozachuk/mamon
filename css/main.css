@@ -5053,6 +5053,9 @@ p {
     display: none;
   }
 }
+.clients__carousel .owl-carousel {
+  z-index: 0;
+}
 .testimonial__clients {
   display: flex;
   justify-content: center;
