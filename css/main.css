@@ -5119,8 +5119,10 @@ p {
     align-items: center;
   }
 }
-.team-item img {
-  margin-right: 30px;
+@media (min-width: 1200px) {
+  .team-item img {
+    margin-right: 30px;
+  }
 }
 .team-item > div {
   flex-basis: calc(0%);
