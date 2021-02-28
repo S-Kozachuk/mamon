@@ -4638,7 +4638,7 @@ p {
 }
 @media (min-width: 768px) {
   .wrap {
-    max-width: 750px;
+    max-width: 720px;
   }
 }
 @media (min-width: 980px) {
