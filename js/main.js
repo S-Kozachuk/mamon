@@ -76,12 +76,12 @@ $(document).ready(function () {
             $('.slider-2').owlCarousel({
                 items: 1,
                 nav: true,
-                dots: false,
+                dots: true,
                 loop: false,
                 navSpeed: 2000,
             });
         }
 
     });
-    
+
 })

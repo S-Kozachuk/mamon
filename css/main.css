@@ -5201,6 +5201,14 @@ p {
     grid-row-gap: 40px;
   }
 }
+.owl-carousel .owl-dots button.owl-dot {
+  margin-right: 2px;
+  background: #fff;
+  border: 3px solid #5528ff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
 .footer {
   padding-top: 20px;
   padding-bottom: 20px;
