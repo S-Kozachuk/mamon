@@ -5135,6 +5135,10 @@ p {
     margin-right: 30px;
   }
 }
+.team .owl-carousel .team-item img {
+  margin: 0 auto;
+  width: auto;
+}
 .team-item > div {
   flex-basis: calc(0%);
 }
