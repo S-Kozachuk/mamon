@@ -5117,6 +5117,9 @@ p {
     grid-row-gap: 40px;
   }
 }
+.team-item {
+  text-align: center;
+}
 @media (min-width: 1200px) {
   .team-item {
     display: flex;
