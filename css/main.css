@@ -5147,7 +5147,9 @@ p {
 }
 @media (min-width: 1200px) {
   .team .owl-carousel .team-item img {
-    margin-bottom: 0;
+    margin: 0;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 }
 .team-item > div {
@@ -5167,6 +5169,11 @@ p {
 .team-item p {
   font-size: 14px;
   color: #B2B2B2;
+}
+@media (min-width: 1200px) {
+  .team-item p {
+    text-align: left;
+  }
 }
 .wrap .team .owl-carousel {
   z-index: 0;
