@@ -5127,6 +5127,9 @@ p {
     align-items: center;
   }
 }
+.team-item img {
+  margin-bottom: 10px;
+}
 @media (min-width: 1200px) {
   .team-item img {
     margin-right: 30px;
