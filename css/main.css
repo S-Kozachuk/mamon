@@ -5132,7 +5132,13 @@ p {
 }
 .team .owl-carousel .team-item img {
   margin: 0 auto;
+  margin-bottom: 15px;
   width: auto;
+}
+@media (min-width: 1200px) {
+  .team .owl-carousel .team-item img {
+    margin-bottom: 0;
+  }
 }
 .team-item > div {
   flex-basis: calc(0%);
