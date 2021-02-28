@@ -58,13 +58,14 @@ $(document).ready(function () {
         });
 
     // Call the Owl Carousel plugin, 2-nd slider    
-        $(".slider-2").owlCarousel({
+       /* $(".slider-2").owlCarousel({
             items: 1,
             nav: true,
             dots: false,
             loop: false,
             navSpeed: 2000,
         });
+        */
 
     // Hide Owl Carousel if sreen size more than 768px
     $(window).resize(function(){
@@ -73,7 +74,13 @@ $(document).ready(function () {
             $('.slider-2').trigger('destroy.owl.carousel');
         } else {
             $('.slider-2').owlCarousel({
+                items: 1,
+                nav: true,
+                dots: false,
+                loop: false,
+                navSpeed: 2000,
             });
         }
+
     });
 })
