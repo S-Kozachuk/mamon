@@ -75,7 +75,7 @@ $(document).ready(function () {
         } else {
             $('.slider-2').owlCarousel({
                 items: 1,
-                nav: true,
+                nav: false,
                 dots: true,
                 loop: false,
                 navSpeed: 2000,
