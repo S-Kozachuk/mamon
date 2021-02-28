@@ -63,7 +63,17 @@ $(document).ready(function () {
             nav: true,
             dots: false,
             loop: false,
-            navSpeed: 600,
+            navSpeed: 2000,
         });
 
+    // Hide Owl Carousel if sreen size more than 768px
+    $(window).resize(function(){
+        
+        if ($(this).width() > 768) {
+            $('.slider-2').trigger('destroy.owl.carousel');
+        } else {
+            $('.slider-2').owlCarousel({
+            });
+        }
+    });
 })
