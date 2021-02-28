@@ -78,7 +78,7 @@ $(document).ready(function () {
                 nav: false,
                 dots: true,
                 loop: false,
-                navSpeed: 2000,
+                navSpeed: 1000,
             });
         }
 
