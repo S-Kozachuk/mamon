@@ -4636,12 +4636,22 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media (min-width: 768px) {
+  .wrap {
+    max-width: 750px;
+  }
+}
 @media (min-width: 980px) {
   .wrap {
-    max-width: 800px;
+    max-width: 900px;
   }
 }
 @media (min-width: 1200px) {
+  .wrap {
+    max-width: 1150px;
+  }
+}
+@media (min-width: 1300px) {
   .wrap {
     max-width: 1212px;
     width: 100%;
