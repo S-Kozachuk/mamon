@@ -5149,11 +5149,8 @@ p {
   .team .owl-carousel .team-item img {
     margin: 0;
     margin-right: 30px;
-    margin-left: 30px;
+    margin-left: 70px;
   }
-}
-.team-item > div {
-  flex-basis: calc(0%);
 }
 .team-item h3 {
   margin-bottom: 8px;
@@ -5164,6 +5161,7 @@ p {
   .team-item h3 {
     margin-bottom: 28px;
     font-size: 28px;
+    text-align: left;
   }
 }
 .team-item p {
