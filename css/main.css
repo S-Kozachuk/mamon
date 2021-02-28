@@ -4724,6 +4724,11 @@ p {
   border: none;
   font-size: 24px;
   font-weight: 400;
+  outline: none;
+  transition: .4s;
+}
+.button:hover {
+  background-color: rgba(87, 40, 255, 0.9);
 }
 @media (min-width: 425px) {
   .button {
