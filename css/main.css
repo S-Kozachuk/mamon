@@ -4923,6 +4923,12 @@ p {
   padding: 5px 15px;
   border: none;
   font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  transition: .4s;
+}
+.nav_btn:hover {
+  background-color: rgba(87, 40, 255, 0.8);
 }
 .nav.active {
   transform: translateX(0%);
