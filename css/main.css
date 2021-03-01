@@ -4777,7 +4777,12 @@ p {
   list-style-type: none;
 }
 .social > li {
-  margin-left: 43px;
+  margin-left: 20px;
+}
+@media (min-width: 1200px) {
+  .social > li {
+    margin-left: 43px;
+  }
 }
 .social > li > a {
   text-decoration: none;
