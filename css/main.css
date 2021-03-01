@@ -4830,6 +4830,12 @@ h2 {
     padding-bottom: 30px;
   }
 }
+@media (min-width: 1200px) {
+  .header.active {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
 .logo {
   display: flex;
   align-items: center;
