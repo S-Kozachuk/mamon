@@ -48,6 +48,17 @@ $(document).ready(function () {
         }
     });
 
+    // Fixed header
+    const fixHeader = document.querySelector('.header');
+    window.addEventListener('scroll', function(){
+        if(this.pageYOffset > 10){
+            fixHeader.classList.add('active');
+        }
+        else{
+            fixHeader.classList.remove('active');    
+        }
+    });
+
     // Call the Owl Carousel plugin, 1-st slider
         $(".slider-1").owlCarousel({
             items: 1,
@@ -84,6 +95,7 @@ $(document).ready(function () {
 
     });
 
+    // Smooth scroll to anchor
     $("body").on('click', '[href*="#"]', function(e){
         var fixed_offset = 100;
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 400);
