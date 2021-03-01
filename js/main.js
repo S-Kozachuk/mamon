@@ -48,7 +48,7 @@ $(document).ready(function () {
         }
     });
 
-    // Fixed header
+    // Fixed header by scroll
     const fixHeader = document.querySelector('.header');
     window.addEventListener('scroll', function(){
         if(this.pageYOffset > 10){
