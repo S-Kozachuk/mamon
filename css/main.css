@@ -5232,4 +5232,14 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+.box-footer a > img {
+  width: 40px;
+  height: 40px;
+}
+@media (min-width: 1200px) {
+  .box-footer a > img {
+    width: auto;
+    height: auto;
+  }
+}
 /*# sourceMappingURL=main.css.map */
