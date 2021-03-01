@@ -4779,7 +4779,7 @@ p {
 .social > li {
   margin-left: 20px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .social > li {
     margin-left: 43px;
   }
@@ -5241,7 +5241,7 @@ p {
   width: 40px;
   height: 40px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .box-footer a > img {
     width: auto;
     height: auto;
