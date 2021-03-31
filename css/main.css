@@ -5540,6 +5540,7 @@ h2 {
   -o-transition: all 0.8s ease 0s;
   -moz-transition: all 0.8s ease 0s;
   transition: all 0.8s ease 0s;
+  z-index: 2;
 }
 .popup.open {
   opacity: 1;
