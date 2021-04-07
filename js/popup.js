@@ -61,7 +61,7 @@ function popupClose(popupActive, doUnlock = true) {
 // Blocking scroll
 function bodyLock() {
     // Calculating the scrollbar width
-    const lockPaddingValue = window.innerWidth - document.querySelector('.wrap').offsetWidth + 'px';
+    const lockPaddingValue = window.innerWidth - document.querySelector('.wrapper').offsetWidth + 'px';
 
     if (lockPadding.length > 0) {
         for (let index = 0; index < lockPadding.length; index++) {
