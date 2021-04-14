@@ -68,16 +68,6 @@ $(document).ready(function () {
             navSpeed: 1000
         });
 
-    // Call the Owl Carousel plugin, 2-nd slider    
-       /* $(".slider-2").owlCarousel({
-            items: 1,
-            nav: true,
-            dots: false,
-            loop: false,
-            navSpeed: 2000,
-        });
-        */
-
     // Hide Owl Carousel if sreen size more than 768px
     $(window).resize(function(){
         
