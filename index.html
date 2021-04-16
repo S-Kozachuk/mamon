@@ -306,35 +306,26 @@
         <div class="popup__body">
             <div class="popup__content">
                 <a href="#header" class="popup__close close-popup">X</a>
-                <div class="popup__title">Это модальное окно №1</div>
-                <div class="popup__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
-
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Provident, assumenda error. Maxime in impedit debitis magni necessitatibus fugit 
-                    voluptas consectetur molestias aliquid.
+                <div class="contacts__form">
+                    <form class="formgroup" action="" id="contacts-form">
+                        <input type="hidden" name="project_name" value="kozachuk-dev.ru">
+                        <input type="hidden" name="admin_email" value="kozachuk-dev@yandex.ru">
+                        <input type="hidden" name="email_from" value="info@kozachuk-dev.ru">
+                        <div class="form-item">
+                            <input class="form-field" type="text" name="email">
+                            <span class="fake-placeholder">Ваш email</span>
+                        </div>
+                        <div class="form-item">
+                            <input class="form-field" type="text" name="subject">
+                            <span class="fake-placeholder">Тема письма</span>
+                        </div>
+                        <div class="form-item">
+                            <textarea class="form-field" type="text" name="message"></textarea>
+                            <span class="fake-placeholder">Сообщение</span>
+                        </div>
+                        <button class="button-main button-form" type="submit">Отправить</button>
+                    </form>
+                    <div id="answer"></div>
                 </div>
             </div>
         </div>
