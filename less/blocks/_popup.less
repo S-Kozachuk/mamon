@@ -34,8 +34,6 @@
 .popup__content {
     position: relative;
     max-width: 800px;
-    margin: 0 20px;
-    padding: 30px;
     opacity: 0;
     background-color: #fff;
     color: #000;
@@ -43,6 +41,12 @@
     box-shadow: 0px 10px 45px 0px rgba(87, 40, 255, 0.15);
     transform: perspective(600px) translate(0px, -100%) rotateX(45deg);                                                                                                                                                     
     transition: all 0.8s ease 0s;
+
+    @media (min-width: 1200px) {
+        margin: 0 20px;
+        padding: 30px;
+    }
+
 }
 
 .popup__close {
