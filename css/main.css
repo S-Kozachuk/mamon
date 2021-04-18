@@ -5412,7 +5412,7 @@ textarea {
 }
 .form-item .form-field {
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 50px;
   border: 0px;
   border-bottom: 1px solid #eaeaea;
@@ -5425,6 +5425,7 @@ textarea {
 @media (min-width: 1200px) {
   .form-item .form-field {
     left: 0;
+    width: 100%;
   }
 }
 .form-item textarea.form-field {
