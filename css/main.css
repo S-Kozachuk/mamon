@@ -5451,7 +5451,7 @@ textarea {
 .form-item .fake-placeholder.active {
   top: -15px;
   font-size: 16px;
-  color: var(--mail);
+  color: #000;
 }
 .error {
   font-size: 15px;
