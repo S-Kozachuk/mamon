@@ -5456,7 +5456,7 @@ textarea {
 .error {
   font-size: 15px;
   font-weight: 300;
-  color: var(--red);
+  color: #ea736d;
 }
 .button-form {
   padding: 11px 60px;
