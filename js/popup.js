@@ -166,7 +166,7 @@ $('#contacts-form').validate({
     messages: {
         email: {
             required: 'Введите email',
-            email: 'отсутсвует символ @'
+            email: 'отсутствует символ @'
         },
         subject: {
             required: 'Введите тему сообщения'
