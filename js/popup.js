@@ -148,3 +148,35 @@ for (let item of formInputs){
         }
     }); 
 }
+
+// Form validate
+$('#contacts-form').validate({
+    rules: {
+        email: {
+            required: true,
+            email: true
+        },
+        subject: {
+            required: true
+        },
+        message: {
+            required: true
+        }
+    },
+    messages: {
+        email: {
+            required: 'Введите email',
+            email: 'отсутсвует символ @'
+        },
+        subject: {
+            required: 'Введите тему сообщения'
+        },
+        message: {
+            required: 'Введите текст сообщения'
+        }
+    },
+    submitHandler: function (form) {
+        ajaxFormSubmit();
+    }
+});
+
