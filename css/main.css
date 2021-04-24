@@ -5793,4 +5793,7 @@ textarea {
     background-image: none;
   }
 }
+.contact-form__success h2 {
+  top: 0;
+}
 /*# sourceMappingURL=main.css.map */
