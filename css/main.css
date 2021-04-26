@@ -4823,6 +4823,7 @@ body.lock {
 }
 @media (min-width: 1200px) {
   .button {
+    margin-left: 17px;
     padding: 17px 57px;
     cursor: pointer;
   }
