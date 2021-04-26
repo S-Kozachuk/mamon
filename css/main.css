@@ -4930,9 +4930,9 @@ h2 {
 }
 @media (min-width: 1200px) {
   .header {
-    padding-left: 2px;
+    padding-left: 17px;
     padding-right: 29px;
-    padding-top: 54px;
+    padding-top: 52px;
     padding-bottom: 30px;
   }
 }
