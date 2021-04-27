@@ -5025,7 +5025,7 @@ h2 {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 100%;
-  grid-row-gap: 38px;
+  grid-row-gap: 83px;
 }
 @media (min-width: 768px) {
   .services {
