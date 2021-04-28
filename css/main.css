@@ -5181,6 +5181,11 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
+@media (min-width: 1200px) {
+  .team {
+    padding-top: 29px;
+  }
+}
 .team-item {
   text-align: center;
 }
