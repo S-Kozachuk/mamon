@@ -4783,6 +4783,11 @@ h2 {
   padding-left: 0;
   list-style-type: none;
 }
+@media (min-width: 1200px) {
+  .social {
+    padding-right: 14px;
+  }
+}
 .social > li {
   margin-left: 20px;
 }
