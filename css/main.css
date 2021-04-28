@@ -5310,6 +5310,11 @@ h2 {
   padding-bottom: 20px;
   background-color: #F7F7F7;
 }
+@media (min-width: 1200px) {
+  .footer {
+    padding-top: 30px;
+  }
+}
 .box-footer {
   display: flex;
   justify-content: space-between;
