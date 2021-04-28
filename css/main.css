@@ -5176,6 +5176,11 @@ h2 {
     left: 90%;
   }
 }
+@media (min-width: 1200px) {
+  .our-team {
+    padding-bottom: 92px;
+  }
+}
 .team {
   display: flex;
   flex-direction: column;
