@@ -4791,6 +4791,11 @@ h2 {
     margin-left: 43px;
   }
 }
+@media (min-width: 1200px) {
+  .social > li {
+    margin-left: 41px;
+  }
+}
 .social > li > a {
   text-decoration: none;
   color: #B2B2B2;
