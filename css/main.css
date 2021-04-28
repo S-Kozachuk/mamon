@@ -5311,6 +5311,11 @@ h2 {
     height: auto;
   }
 }
+@media (min-width: 1200px) {
+  .box-footer a > img {
+    margin-left: 28px;
+  }
+}
 .popup {
   position: fixed;
   width: 100%;
