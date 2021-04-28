@@ -5106,6 +5106,9 @@ h2 {
     text-align: unset;
   }
 }
+.our-clients {
+  padding-top: 71px;
+}
 .clients {
   display: none;
 }
@@ -5121,6 +5124,7 @@ h2 {
   .clients {
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 25%);
+    grid-row-gap: 44px;
   }
 }
 .clients__carousel {
