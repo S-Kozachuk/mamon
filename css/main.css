@@ -5248,6 +5248,11 @@ h2 {
     grid-row-gap: 40px;
   }
 }
+@media (min-width: 1200px) {
+  .wrap .team .owl-carousel {
+    grid-row-gap: 53px;
+  }
+}
 .team .owl-carousel .owl-dots {
   margin: 0 auto;
   margin-top: 20px;
