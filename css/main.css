@@ -557,7 +557,7 @@ h2 {
   .services {
     margin-top: 29px;
     grid-template-rows: repeat(2, 107px);
-    grid-template-columns: repeat(2, 680px);
+    grid-template-columns: repeat(2, 600px);
     grid-row-gap: 83px;
   }
 }
@@ -586,9 +586,9 @@ h2 {
 }
 @media (min-width: 1200px) {
   .services__img {
-    -webkit-flex-basis: 120px;
-        -ms-flex-preferred-size: 120px;
-            flex-basis: 120px;
+    -webkit-flex-basis: 135px;
+        -ms-flex-preferred-size: 135px;
+            flex-basis: 135px;
     margin-bottom: -12px;
   }
 }
@@ -600,7 +600,7 @@ h2 {
 }
 @media (min-width: 1200px) {
   .services__text {
-    margin: 0 0 0 32px;
+    margin: 0 0 0 20px;
   }
 }
 .services h3 {
@@ -628,6 +628,9 @@ h2 {
   .services p {
     text-align: unset;
   }
+}
+.grid-column {
+  margin-left: 74px;
 }
 .our-clients {
   padding-top: 71px;
