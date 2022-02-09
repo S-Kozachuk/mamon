@@ -26,7 +26,7 @@
 
 ```
 git clone https://github.com/S-Kozachuk/mamon.git
-cd unit
+cd mamon
 ```
 
 Открыть index.html
